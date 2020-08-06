@@ -21,3 +21,22 @@ $(".click_action").click(function() {
     }
 });
 */
+
+
+$(".nav_toggle").click(function() {
+    $(".sidebar").toggleClass("sidebar_hide");
+    $(".sidebar").toggleClass("sidebar_show");
+});
+
+$(".close_btn").click(function() {
+    $(".sidebar").toggleClass("sidebar_hide");
+    $(".sidebar").toggleClass("sidebar_show");
+});
+
+
+/*$(".bio_div").css("height",$(".photo_div").css("height"));*/
+
+
+
+
+
